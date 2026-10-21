@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>signalbot-rclone</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1b1b1b; --muted: #555; --link: #0b57d0; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #121212; --fg: #e8e8e8; --muted: #aaa; --link: #8ab4f8; } }
+  body { background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, sans-serif; max-width: 40rem; margin: 3rem auto; padding: 0 16px; }
+  p.small { color: var(--muted); font-size: 0.9rem; }
+  a { color: var(--link); }
+</style>
+</head>
+<body>
+<h1>signalbot-rclone</h1>
+<p>signalbot-rclone is a private backup tool used by one person, its owner, on his own computers. It uses
+<a href="https://rclone.org/">rclone</a> to copy his own files into his own Google Drive and to read them back to
+check that the copy is intact.</p>
+<p>It asks Google only for the <code>drive.file</code> permission, so it can see and change only the files it
+created itself, and nothing else in the Drive.</p>
+<p>It is not offered to anyone else, and it has no users other than its owner.</p>
+<p><a href="privacy.html">Privacy policy</a></p>
+<p class="small">Contact: <a href="https://github.com/rebwar1/rebwar1.github.io/issues">open an issue on this site's repository</a>.</p>
+</body>
+</html>
